@@ -1,3 +1,37 @@
+#content form, #content input, #content textarea {
+    width: 380px;
+}
+#content label {
+    display: block;
+}
+#content .field {
+    float: left;
+    margin-top: 5px;
+    width: 380px;
+}
+#content form, #content input, #content textarea {
+    width: 380px;
+}
+
+#content input.button, #content input.csc-mailform-submit {
+    margin: 20px 0;
+    padding: 0 10px;
+    width: auto;
+}
+#content .box input {
+    margin: 0 10px;
+    width: auto;
+}
+#sidebar div.box div#c1152.csc-default small a {
+    background-color: #F5F5F5;
+    text-decoration: underline;
+}
+
+#content div.csc-default h3.csc-searchResultHeader {
+    margin-top: 10px;
+}
+
+
 #body{
 background-image: url(../img/indexbackgounds/bg07.jpg);
 font-family: Arial;
@@ -45,7 +79,7 @@ margin-right: auto;
 }
 
 #content{
-	padding: 50px;
+	padding: 30px;
 	position: relative;
 }
 
@@ -309,6 +343,7 @@ margin-right: auto;
     font-size: 16px;
 }
 #iframe{
+	float:right;
 	width: 600px;
 	height: 450px;
 	display: inline-block;
@@ -338,10 +373,15 @@ margin-right: auto;
     /* Opera*/
     -webkit-animation-delay: 1s
 }
+
+#kontaktform{
+	float:left;
+	
+}
 #kontaktinfo{
+	margin-left: 100px;
 	font-family: 'Calibri', serif;
-	font-size: 140%;
-	margin: 10px;
+	font-size: 100%;
 	display: inline-block;
 }
 #kontaktinfo ul{
