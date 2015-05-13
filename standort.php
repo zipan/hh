@@ -3,10 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Calibri">		
 		<link rel="stylesheet" href="css/style2.css">
 		<link rel="stylesheet" href="css/style_design_modus.css">
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<!-- Latest compiled JavaScript -->
@@ -31,7 +34,7 @@
 						<br>
 						<li><span class="glyphicon glyphicon-phone-alt"></span> +41 44 919 01 23</li>
 						<li><span class="glyphicon glyphicon-phone"></span> +41 79 784 63 25</li>
-						<li><span class="glyphicon glyphicon-envelope"></span> hardmeierholzbau@bluewin.ch</li>
+						<li><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:hardmeierholzbau@bluewin.ch?Subject=mehr informationen" target="_top">hardmeierholzbau@bluewin.ch</a></li>
 						<li>7:00-12:00 / 13:00-17:00</li>
 	                </ul>
 				</div>

@@ -7,7 +7,8 @@ font-family: Arial;
 position: relative;
 color: #696969;
 width: 1140px;
-
+height: 800px;
+margin-top: 10px;
 margin-left: auto;
 margin-right: auto;
 border-radius: 5px;
@@ -44,8 +45,14 @@ margin-right: auto;
 }
 
 #content{
-	padding: 10px;
+	padding: 50px;
+	position: relative;
 }
+
+#index_page{
+	position: relative;
+}
+
 
 
 #standort{
@@ -151,13 +158,9 @@ nav ul li:active a {
 	background-color: #696969;
 }
 
-#content{
-	position: relative;
-}
-
 #logo{
 	position: absolute;
-	top: 20px;
+	top: 0px;
 	left: 20px;
 }
 
@@ -232,7 +235,7 @@ line-height: 1;
 
 
 #betrieb {
-width: 650px;
+width: 550px;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -336,6 +339,8 @@ margin-right: auto;
     -webkit-animation-delay: 1s
 }
 #kontaktinfo{
+	font-family: 'Calibri', serif;
+	font-size: 140%;
 	margin: 10px;
 	display: inline-block;
 }
@@ -347,7 +352,7 @@ margin-right: auto;
 
 #history{
 display: inline-block;
-width: 265px;
+width: 350px;
 }
 #history li{
 padding-top: 10px;

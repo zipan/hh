@@ -33,7 +33,10 @@
 				<div class="entries">
 					<div class="entry">
 						<img src="img/woodfaded.jpg" alt="img">
+						
+						<!-- 
 						<p><a href="vergangene_projekte/Loghome_Pfaffhausen_2010.html" rel="facebox">Loghome Pfaffhausen 2010</a></p>
+						-->
 					</div>
 				</div>
 			</div>
