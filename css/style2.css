@@ -1,0 +1,404 @@
+#body{
+background-image: url(../img/indexbackgounds/bg07.jpg);
+font-family: Arial;
+}
+
+#wrapper{
+position: relative;
+color: #696969;
+width: 1140px;
+
+margin-left: auto;
+margin-right: auto;
+border-radius: 5px;
+box-shadow: 2px 2px 2px black;
+background-image: -webkit-linear-gradient(#FF9966, #FFBF66);
+background-image: -moz-linear-gradient(#FF9966, #FFBF66);
+}
+#wrapper_protector{
+position: absolute;
+top: 0px;
+left: 0px;
+z-index: 1;
+background-color: red;
+border-radius: 5px;
+height: 100%;
+width: 1140px;
+opacity: 0;
+display: none;
+}
+#note{
+position: absolute;
+top: 0px;
+left: 0px;
+background-color: red;
+height: 50px;
+width: 5px;
+z-index: 2;
+}
+
+#nav{
+width: 1040px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#content{
+	padding: 10px;
+}
+
+
+#standort{
+
+}
+
+h1{margin: 0;}
+nav ul:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+nav ul{
+/*border-radius: 5px;
+box-shadow: 2px 2px 2px #024002;*/
+padding: 0;
+margin: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: #696969;
+	padding: 4px 7px 4px 7px;
+	-webkit-transition: background 0.3s ease-out 0s;
+    -moz-transition: background 0.3s ease-out 0s;
+    -o-transition: background 0.3s ease-out 0s;
+    transition: background 0.3s ease-out 0s;
+}
+
+#navimg{
+position: relative;
+height: 208px;
+width: 1040px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#navimg img{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 1040px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#navimg img {
+-webkit-animation-name: navimgFadeInOut;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-duration: 32s;
+}
+
+@-webkit-keyframes navimgFadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+
+
+#navimg img:nth-of-type(1) {
+  -webkit-animation-delay: 24s;
+}
+#navimg img:nth-of-type(2) {
+  -webkit-animation-delay: 16s;
+}
+#navimg img:nth-of-type(3) {
+  -webkit-animation-delay: 8s;
+}
+#navimg img:nth-of-type(4) {
+  -webkit-animation-delay: 0;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+}
+nav ul li:hover a{
+	color: white;
+    background-color: #696969;
+}
+nav ul li:active a {
+	color: white;
+	background-color: #696969;
+}
+
+#content{
+	position: relative;
+}
+
+#logo{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#betrieb_begruessung{
+position: relative;
+width: 800px;
+
+background-size: 500px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.begruessung{
+font-family: Gabriola;
+font-size: 40px;
+width: 547px;
+margin-top:20px;
+margin-right:auto;
+margin-bottom:20px;
+margin-left:auto;
+text-align: center;
+line-height: 1;
+}
+.begruessung p{
+	opacity:0;
+	animation: fadein 2s linear; -webkit-animation-fill-mode: forwards;
+	-moz-animation: fadein 2s linear; -webkit-animation-fill-mode: forwards;
+    /* Firefox */
+    -webkit-animation: fadein 2s linear; -webkit-animation-fill-mode: forwards;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s linear; -webkit-animation-fill-mode: forwards;
+    /* Opera*/
+}
+.begruessung p:nth-child(1){ -webkit-animation-delay: 0s }
+.begruessung p:nth-child(2){ -webkit-animation-delay: 1s }
+.begruessung p:nth-child(3){ -webkit-animation-delay: 2s }
+
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+#betrieb {
+width: 650px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.carousel-inner img{
+margin: auto auto;
+	
+}
+
+.entries img
+{
+	height: 100px;	
+	border: 2px solid black;	
+}
+.entry{
+	width: 300px;
+	border: 2px solid black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	position: relative;
+}
+.entries p
+{
+	display: inline-block;
+	margin-bottom: 0px;
+}
+.form_element
+{
+margin-bottom: 40px;
+}
+
+#kontaktform
+{
+	font-size: 20px;
+	text-align: center;
+}
+#team{
+}
+#team td{	
+	text-align: center;
+}
+#team_img{
+width: 400px;
+margin-left: auto;
+margin-right: auto;	
+}
+.mitarbeiter-wrapper {
+    width: 400px;
+    height: 500px;
+    background: #dcf35a;
+    
+    display: inline-block;
+}
+.mitarbeiter-img {
+    position: relative;
+    height: 400px;
+}
+.mitarbeiter-img img {
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+}
+.mitarbeiter-text {
+    height: 70px;
+    padding: 15px;
+    margin: 0px;
+    font-size: 16px;
+}
+#iframe{
+	width: 600px;
+	height: 450px;
+	display: inline-block;
+	background-image: url(../img/For_Google_Map_IMG_5248.jpg);
+	position: relative;
+	
+}
+#iframe::after {
+  content: "";
+  background: url(../img/For_Google_Map_IMG_5248.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+#iframe iframe{
+	opacity:0;
+	animation: fadein 1s linear; -webkit-animation-fill-mode: forwards;
+	-moz-animation: fadein 1s linear; -webkit-animation-fill-mode: forwards;
+    /* Firefox */
+    -webkit-animation: fadein 1s linear; -webkit-animation-fill-mode: forwards;
+    /* Safari and Chrome */
+    -o-animation: fadein 1s linear; -webkit-animation-fill-mode: forwards;
+    /* Opera*/
+    -webkit-animation-delay: 1s
+}
+#kontaktinfo{
+	margin: 10px;
+	display: inline-block;
+}
+#kontaktinfo ul{
+	list-style: none;
+	padding: 0px;
+	
+}
+
+#history{
+display: inline-block;
+width: 265px;
+}
+#history li{
+padding-top: 10px;
+}
+#history li:hover{
+color: red;
+}
+#history li:active{
+color: red;
+}
+#galleria{
+margin-left: auto;
+margin-right: auto;
+}
+#bild0 {
+display: inline-block;
+}
+
+#bild1991 {
+display: none;
+}
+
+#bild1995 {
+display: none;
+}
+
+#bild1997 {
+display: none;
+}
+
+#bild1998 {
+display: none;
+}
+#bild1999 {
+display: none;
+}
+#bild2001 {
+display: none;
+}
+#bild2006 {
+display: none;
+}
+#bild2010 {
+display: none;
+}
+#bild2012 {
+display: none;
+}
+#bild2015 {
+display: none;
+}
+.carousel-caption{
+	background: rgba(0,0,0,0.5);
+}

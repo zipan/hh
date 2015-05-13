@@ -1,0 +1,118 @@
+#animation{
+	position: relative;
+	 height: 450px;
+	 width: 600px;
+	
+}
+#element1{
+	background-color: CornflowerBlue;
+	width: 600px;
+	height: 100px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	visibility: hidden;
+	-webkit-animation-name: falling;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 0s;
+	
+}
+#element2{
+	background-color: red;
+	width: 150px;
+	height: 250px;
+	position: absolute;
+	bottom: 100px;
+	left: 0px;
+	visibility: hidden;
+	-webkit-animation-name: falling;
+	-webkit-animation-duration: 2.333s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 2s;
+}
+#element3{
+	background-color: yellow;
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	bottom: 100px;
+	left: 400px;
+	visibility: hidden;
+	-webkit-animation-name: falling;
+	-webkit-animation-duration: 2.333s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 4s;
+}
+#element4{
+	background-color: MediumSeaGreen;
+	width: 250px;
+	height: 75px;
+	position: absolute;
+	bottom: 100px;
+	left: 150px;
+	visibility: hidden;
+	-webkit-animation-name: falling;
+	-webkit-animation-duration: 2.333s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 6s;
+}
+#element5{
+	background-color: DarkCyan;
+	width: 100px;
+	height: 175px;
+	position: absolute;
+	bottom: 175px;
+	left: 300px;
+	visibility: hidden;
+	-webkit-animation-name: falling;
+	-webkit-animation-duration: 1.833s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 8s;
+}
+#element6{
+	background-color: Plum;
+	width: 150px;
+	height: 175px;
+	position: absolute;
+	bottom: 175px;
+	left: 150px;
+	visibility: hidden;
+	-webkit-animation-name: falling;
+	-webkit-animation-duration: 1.833s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 10s;
+}
+#element7{
+	background-color: orange;
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	bottom: 200px;
+	left: 400px;
+	visibility: hidden;
+	-webkit-animation-name: falling;
+	-webkit-animation-duration: 1.333s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 12s;
+}
+#element8{
+	background-color: brown;
+	width: 600px;
+	height: 100px;
+	position: absolute;
+	bottom: 350px;
+	left: 0px;
+	visibility: hidden;
+	-webkit-animation-name: falling;
+	-webkit-animation-duration: 0.666s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 14s;
+}
+
+
+@-webkit-keyframes falling{
+    0%   {bottom:450px; visibility: visible;}
+    100%   {visibility: visible;}
+}
+

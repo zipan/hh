@@ -1,0 +1,228 @@
+body {
+background-image: url(../img/indexbackgounds/seamless0.jpg);
+font-family: Arial;
+}
+
+
+
+#wrapper{
+background-color: palegreen;
+width: 1140px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 5px;
+box-shadow: 2px 2px 2px black;
+}
+
+#header{
+border-radius: 5px;
+text-align: center;
+background-color: palegreen;
+}
+
+#nav{
+border-radius: 5px;
+width: 1040px;
+}
+
+#content{
+padding: 10px;
+}
+
+#standort{
+
+}
+
+h1{margin: 0;}
+
+nav{
+width: 1140px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+nav ul{
+padding: 0;
+margin: 0;
+box-shadow: 2px 2px 2px #024002;
+}
+
+nav ul:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+nav ul,nav ul li{
+    background-color: green;
+}
+    nav ul li {
+    list-style: none;
+    float: left;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+	margin-left: auto ;
+	margin-right: auto ;
+    padding: 4px 7px 4px 7px;
+}
+nav ul li:hover a{
+	color: black;
+    background-color: palegreen;
+}
+nav ul li:active a {
+	background-color: palegreen;
+}
+
+#content{
+	position: relative;
+}
+
+#logo{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#betrieb_begruessung{
+position: relative;
+width: 800px;
+
+background-size: 500px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.begruessung{
+font-style: italic;
+font-size: 40px;
+width: 547px;
+margin-top:20px;
+margin-right:auto;
+margin-bottom:20px;
+margin-left:auto;
+text-align: center;
+line-height: 1;
+}
+
+#betrieb {
+width: 800px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.entries img
+{
+	height: 100px;	
+	border: 2px solid black;	
+}
+.entry{
+	width: 300px;
+	border: 2px solid black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	position: relative;
+}
+.entries p
+{
+	display: inline-block;
+	margin-bottom: 0px;
+}
+.form_element
+{
+ margin-bottom: 40px;
+}
+
+#kontaktform
+{
+	font-size: 20px;
+	text-align: center;
+
+}
+#kontaktform textarea {
+background-color: palegreen;
+	font-family: inherit;
+	font-size: 18px;
+}
+#kontaktform input {
+	background-color: palegreen;
+}
+#team{	
+	border: solid;
+}
+#team td{	
+	text-align: center;
+}
+#team_img{
+width: 400px;
+margin-left: auto;
+margin-right: auto;	
+}
+.mitarbeiter-wrapper {
+    width: 400px;
+    height: 500px;
+    background: palegreen;
+    border: solid 2px black;
+    display: inline-block;
+}
+.mitarbeiter-img {
+    position: relative;
+    height: 400px;
+}
+.mitarbeiter-img img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.mitarbeiter-text {
+    height: 70px;
+    padding: 15px;
+    margin: 0px;
+    font-size: 16px;
+}
+#history{
+display: inline-block;
+width: 200px;
+}
+#history li{
+padding-top: 10px;
+}
+#history li:hover{
+color: red;
+}
+#history li:active{
+color: red;
+}
+#galleria{
+margin-left: auto;
+margin-right: auto;
+}
+#bild0 {
+display: inline-block;
+}
+
+#bild1991 {
+display: none;
+}
+
+#bild1995 {
+display: none;
+}
+
+#bild1997 {
+display: none;
+}
+
+#bild1998 {
+display: none;
+}

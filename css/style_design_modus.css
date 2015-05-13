@@ -1,0 +1,33 @@
+nav ul,nav ul li{
+    background-color: #FF9966;
+}
+nav ul li {
+    position: relative;
+}
+
+nav ul li ul{
+    display: inline;
+    visibility: hidden;
+    position: absolute;
+    top: 0px
+    padding:0px;
+}
+
+nav ul li:hover > ul {
+    visibility: visible;
+    z-index: +1;
+}
+
+nav ul li ul li{
+    float: none;
+}
+nav ul li:hover > a {
+    color: #FAFAFA;
+}
+nav ul li ul li a {
+    color: #FAFAFA;
+}
+nav ul li ul li a:hover{
+    color: #333;
+    background-color: #FAFAFA !important;
+}
