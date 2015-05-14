@@ -1,35 +1,6 @@
-#content form, #content input, #content textarea {
-    width: 380px;
-}
-#content label {
-    display: block;
-}
-#content .field {
-    float: left;
-    margin-top: 5px;
-    width: 380px;
-}
-#content form, #content input, #content textarea {
-    width: 380px;
-}
 
-#content input.button, #content input.csc-mailform-submit {
-    margin: 20px 0;
-    padding: 0 10px;
-    width: auto;
-}
-#content .box input {
-    margin: 0 10px;
-    width: auto;
-}
-#sidebar div.box div#c1152.csc-default small a {
-    background-color: #F5F5F5;
-    text-decoration: underline;
-}
 
-#content div.csc-default h3.csc-searchResultHeader {
-    margin-top: 10px;
-}
+
 
 
 #body{
@@ -81,6 +52,28 @@ margin-right: auto;
 #content{
 	padding: 30px;
 	position: relative;
+}
+
+#content form, #content input, #content textarea {
+    width: 380px;
+}
+#content label {
+	font-family: 'Calibri', serif;
+	
+    display: block;
+    text-align: left;
+}
+#content .field {
+    float: left;
+    font-size: 100%;
+    margin-top: 5px;
+    width: 380px;
+}
+
+#content input.button, #content input.csc-mailform-submit {
+    margin: 20px 0;
+    padding: 0 10px;
+    width: auto;
 }
 
 #index_page{
@@ -375,6 +368,7 @@ margin-right: auto;
 }
 
 #kontaktform{
+	
 	float:left;
 	
 }
@@ -389,6 +383,10 @@ margin-right: auto;
 	padding: 0px;
 	
 }
+
+
+
+
 
 #history{
 display: inline-block;
