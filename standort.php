@@ -1,8 +1,8 @@
 <?php
-$zieladresse = 'zipan2@gmail.com';
-$absenderadresse = 'zipan2@gmail.com';
+$zieladresse = 'brhonn@gmail.com';
+$absenderadresse = 'brhonn@gmail.com';
 $absendername = 'Formmailer';
-$betreff = 'Feedback';
+$betreff = 'Mehr Informationen';
 $redirect_to = 'standort.php';
 $trenner = ":\t";
 
