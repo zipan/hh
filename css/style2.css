@@ -294,11 +294,7 @@ margin-right: auto;
 margin-bottom: 40px;
 }
 
-#kontaktform
-{
-	font-size: 20px;
-	text-align: center;
-}
+
 #team{
 }
 #team td{	
@@ -364,11 +360,12 @@ margin-right: auto;
     -webkit-animation-delay: 1s
 }
 
-#kontaktform{
-	
+#kontakPageText{
 	float:left;
-	
+	font-size: 20px;
+	text-align: center;
 }
+
 #kontaktinfo{
 	margin-left: 100px;
 	font-family: 'Calibri', serif;
@@ -378,7 +375,6 @@ margin-right: auto;
 #kontaktinfo ul{
 	list-style: none;
 	padding: 0px;
-	
 }
 
 

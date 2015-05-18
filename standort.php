@@ -1,3 +1,43 @@
+<?php
+$zieladresse = 'zipan2@gmail.com';
+$absenderadresse = 'zipan2@gmail.com';
+$absendername = 'Formmailer';
+$betreff = 'Feedback';
+$redirect_to = 'standort.php';
+$trenner = ":\t";
+
+if ($_SERVER['REQUEST_METHOD'] === "POST") {
+$header = array();
+$header[] = "From: ".mb_encode_mimeheader($absendername, "utf-8", "Q")." <".$absenderadresse.">";
+$header[] = "MIME-Version: 1.0";
+$header[] = "Content-type: text/plain; charset=utf-8";
+$header[] = "Content-transfer-encoding: 8bit";
+
+$mailtext = "";
+
+foreach ($_POST as $name => $wert) {
+	if (is_array($wert)) {
+		foreach ($wert as $einzelwert) {
+			$mailtext .= $name.$trenner.$einzelwert."\n";
+		}
+	} else {
+		$mailtext .= $name.$trenner.$wert."\n";
+	}
+}
+
+mail(
+	$zieladresse, 
+	mb_encode_mimeheader($betreff, "utf-8", "Q"), 
+	$mailtext,
+	implode("\n", $header)
+) or die("Die Mail konnte nicht versendet werden.");
+header("Location: $redirect_to");
+exit;
+}
+
+header("Content-type: text/html; charset=utf-8");
+?>
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -19,6 +59,9 @@
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/change.js"></script>
+
+
+		
 </head>
 
 <body id="body">
@@ -31,10 +74,10 @@
 
 
 
-			<div id="kontaktform" style="display: inline-block;">
+			<div id="kontakPageText" style="display: inline-block;">
 				<h2>Kontakt und Standort</h2>
 				
-					<form name="request_form" action="/Kontakt" method="post"
+					<form name="kontaktform" action="standort.php" method="post"
 						accept-charset="UTF-8">
 						<div class="field">
 							<label for="name">Name </label> <input type="text" name="name" 
@@ -42,16 +85,16 @@
 						</div>
 						<div class="field">
 							<label for="phone">Telefon</label> <input type="text"
-								name="phone" id="phone" value="" />
+								name="telefon" id="telefon" value="" />
 						</div>
 						<div class="field">
 							<label for="liame">E-Mail </label> <input type="text"
-								name="liame" id="liame" value="" />
+								name="email" id="email" value="" />
 						</div>
 
 						<div class="field">
 							<label for="message">Nachricht</label>
-							<textarea cols="50" rows="5" name="message" id="message"></textarea>
+							<textarea cols="50" rows="5" name="Nachricht" id="Nachricht"></textarea>
 						</div>
 						<input type="submit" class="button" name="submit" value="Absenden" />
 					</form>
