@@ -101,32 +101,18 @@ font-size: 20px;
 
 
 .form{
-width: 485px;
-margin: 20px auto 0 auto;
+width: 524px;
+margin: 40px 0 auto auto;
 }
 
 
 .field_content{
-background: url(../under_construction_screen/img/field.png) left top no-repeat;
-width: 485px;
+
+width: 200px;
 height: 54px;
 float: left;
 }
 
-
-.field{
-width: 365px;
-outline: none;
-border: none;
-background: none;
-font-size: 20px;
-font-family: Helvetica Neue, Helvetica, Arial;
-font-weight: bold;
-color: #999999;
-height: 54px;
-float: left;
-padding-left: 20px;
-}
 
 .submit{
 width: 88px;
