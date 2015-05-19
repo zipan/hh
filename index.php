@@ -36,7 +36,7 @@
 				<div id="betrieb_begruessung">
 					<div class="begruessung"><p>Herzlich Willkommen bei</p><p>Hardmeier Holzbau</p><p>Wir sind ein vielseitiger Betrieb</p></div>
 					<img id="betrieb" src="img/photo2.png" alt="img">
-					<div class="begruessung" id="rund"><p>"Rund um's Holz"</p></div>
+					<div class="begruessung" ><p>"Rund um's Holz"</p></div>
 				</div>
 			</div>
 		</div>
