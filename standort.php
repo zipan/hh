@@ -44,8 +44,6 @@ header("Content-type: text/html; charset=utf-8");
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" type="text/css"
-	href="http://fonts.googleapis.com/css?family=Calibri">
 <link rel="stylesheet" href="css/style2.css">
 <link rel="stylesheet" href="css/style_design_modus.css">
 <!-- Latest compiled and minified CSS -->
